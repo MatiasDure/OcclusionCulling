@@ -56,7 +56,7 @@ public class PooledObject : MonoBehaviour
         // instatiate more if no objects to activate
         for (uint i = pAmountToActivate; i > 0; i--)
         {
-            InstantiatePooledObject(true);
+            _activatedObjects.Add(InstantiatePooledObject(true));
         }
 
         OnStopUpdatingPoolingObjects?.Invoke();
