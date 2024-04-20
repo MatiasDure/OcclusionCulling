@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4403918c4794844ab142d1a7b26f94c, type: 3}
-  m_Name: LOD_2_Scenario
+  m_Name: LOD_1_Scenario
   m_EditorClassIdentifier: 
-  Type: 2
-  MonkeysInScene: 50
+  Type: 1
+  MonkeysInScene: 2000
   TrackingDuration: 5
   ScenarioDescription: Tracks the performance when using the third monkey model in
-    the LOD group. Triangles = 627 * 50
+    the LOD group. Triangles = 1968 * 2000

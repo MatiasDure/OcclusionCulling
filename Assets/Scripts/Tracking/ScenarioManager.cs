@@ -30,14 +30,14 @@ public class ScenarioManager : MonoBehaviour
 
         TrackingScenario upcomingScenario = _trackingScenarios.ScenariosToTrack[_scenarioIndex];
 
-        Debug.Log("-------------------------------------------");
-        Debug.Log("Loading the following scenario:\n"+upcomingScenario.ToString());
+        //Debug.Log("-------------------------------------------");
+        //Debug.Log("Loading the following scenario:\n"+upcomingScenario.ToString());
 
         OnScenarioLoaded?.Invoke(upcomingScenario);
 
         _scenarioIndex++;
 
-        _loadNextScenario = _scenarioIndex >= _trackingScenarios.ScenariosToTrack.Length;
+        _loadNextScenario = _scenarioIndex < _trackingScenarios.ScenariosToTrack.Length;
     }
     private void OnDestroy()
     {

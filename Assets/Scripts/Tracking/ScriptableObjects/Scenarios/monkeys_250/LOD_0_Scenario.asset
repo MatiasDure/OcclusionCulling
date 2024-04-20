@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Type: 0
   MonkeysInScene: 250
-  TrackingDuration: 30
+  TrackingDuration: 5
   ScenarioDescription: Tracks the performance when using the first monkey model in
     the LOD group (highest quality). Triangles = 3936 * 250
