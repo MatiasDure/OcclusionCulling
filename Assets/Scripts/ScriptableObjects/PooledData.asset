@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PooledData
   m_EditorClassIdentifier: 
   PooledPrefab: {fileID: 7765519671079682118, guid: 16eb54b5e3f054c4b992ad65ec36e08a, type: 3}
-  InitialPooledAmount: 2000
+  InitialPooledAmount: 1000
